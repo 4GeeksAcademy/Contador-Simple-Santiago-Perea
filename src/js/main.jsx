@@ -15,7 +15,6 @@ let counter = 0;
 
 setInterval(function () {
   counter = counter + 1;
-  
   root.render(
     <React.StrictMode>
       <SecondsCounter seconds={counter}/>
